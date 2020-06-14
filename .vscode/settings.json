@@ -1,0 +1,74 @@
+{
+  "prettier.packageManager": "yarn",
+  "editor.formatOnSave": true,
+  // "prettier.eslintIntegration": true,
+  "better-comments.highlightPlainText": true,
+  "better-comments.tags": [
+    {
+      "tag": "!",
+      "color": "#FF2D00",
+      "strikethrough": false,
+      "backgroundColor": "transparent"
+    },
+    {
+      "tag": "?",
+      "color": "#3498DB",
+      "strikethrough": false,
+      "backgroundColor": "transparent"
+    },
+    {
+      "tag": "//",
+      "color": "#474747",
+      "strikethrough": true,
+      "backgroundColor": "transparent"
+    },
+    {
+      "tag": "todo",
+      "color": "#FF8C00",
+      "strikethrough": false,
+      "backgroundColor": "transparent"
+    },
+    {
+      "tag": "*",
+      "color": "#000000",
+      "strikethrough": false,
+      "backgroundColor": "#f92679"
+    },
+    {
+      "tag": "@",
+      "color": "#a6e22e",
+      "strikethrough": false,
+      "backgroundColor": "transparent"
+    },
+    {
+      "tag": ":Hooks",
+      "color": "#000000",
+      "strikethrough": false,
+      "backgroundColor": "#a1efe4"
+    },
+    {
+      "tag": ":States",
+      "color": "#000000",
+      "strikethrough": false,
+      "backgroundColor": "#a6e22e"
+    },
+    {
+      "tag": ":Functions",
+      "color": "#000000",
+      "strikethrough": false,
+      "backgroundColor": "#ae81ff"
+    },
+    {
+      "tag": ":Effects",
+      "color": "#000000",
+      "strikethrough": false,
+      "backgroundColor": "#fd971f"
+    },
+    {
+      "tag": ":Render",
+      "color": "#000000",
+      "strikethrough": false,
+      "backgroundColor": "#f8f8f2"
+    }
+  ]
+}
