@@ -1,5 +1,7 @@
 import {useEffect, useRef, useCallback} from 'react';
-import {Animated, Easing} from 'react-native';
+import {Animated, Easing, Dimensions} from 'react-native';
+
+const {height: DEVICE_HEIGHT} = Dimensions.get('window');
 
 const useCardAnimation = (
   number = 1,
@@ -8,7 +10,7 @@ const useCardAnimation = (
     consequestDelay = 50,
     friction = 8,
     duration = 50,
-    fromValue = fromValue,
+    fromValue = DEVICE_HEIGHT,
     toValue = 0,
     showIntial = true,
     easing = Easing.inOut(Easing.ease),
@@ -23,7 +25,7 @@ const useCardAnimation = (
   }, []);
 
   const showCards = useCallback(
-    type => {
+    (type) => {
       const animations = animatedNode.map((elm, index) =>
         Animated.spring(animatedNode[index], {
           toValue: type ? toValue : fromValue,
@@ -48,7 +50,7 @@ const useCardAnimation = (
   );
 
   return [
-    animatedNode.map(translateY => ({
+    animatedNode.map((translateY) => ({
       transform: [{translateY}],
     })),
     showCards,
