@@ -4926,10 +4926,10 @@ react-native-touch-through-view@^1.2.0-beta.1:
   resolved "https://registry.yarnpkg.com/react-native-touch-through-view/-/react-native-touch-through-view-1.2.0-beta.1.tgz#b4dfc8f7ae667eb9da61b947e7d3c8db856f0fc8"
   integrity sha512-phvpFU8w4xHe4Pdi/S2o+3BuR3NxEnAUdKHcraMC9o7o6G7SxyaotRsqVjkx1hD2+U6hLY7c1N0n/cgYyf8D9A==
 
-react-native@0.62.2:
-  version "0.62.2"
-  resolved "https://registry.yarnpkg.com/react-native/-/react-native-0.62.2.tgz#d831e11a3178705449142df19a70ac2ca16bad10"
-  integrity sha512-gADZZ3jcm2WFTjh8CCBCbl5wRSbdxqZGd+8UpNwLQFgrkp/uHorwAhLNqcd4+fHmADgPBltNL0uR1Vhv47zcOw==
+react-native@0.62.3:
+  version "0.62.3"
+  resolved "https://registry.yarnpkg.com/react-native/-/react-native-0.62.3.tgz#9a2e96af3dedd0723c8657831eec4ed3c30f3299"
+  integrity sha512-b2/hDHDlO5Of2Zn1K5ZgvzOoUrvMEvlYU4miS9rcEBp5jK/9cRQn81HZ7NBmf4gzigGl8CxbSx1l10GUj1k8XQ==
   dependencies:
     "@babel/runtime" "^7.0.0"
     "@react-native-community/cli" "^4.5.1"
